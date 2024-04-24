@@ -99,7 +99,7 @@ export function MyBookings() {
                             <p><b>Check In Date:</b> {booking.fromdate}</p>
                             <p><b>Check Out Date:</b> {booking.todate}</p>
                             <p><b>Amount Paid:</b> {booking.totalpayment}</p>
-                            <p><b>Booking Status:</b> {booking.status == 'booked' ? 'Confirmed' : 'Cancelled'} </p>
+                            <p><b>Booking Status:</b> {booking.status == 'booked' ? 'Confirmed' : 'cancelled'} </p>
                             {booking.status !== 'cancelled' && (<div className='text-right'>
                                 <button className='btn btn-primary' onClick={() => { cancelBooking(booking._id, booking.roomid) }}>Cancel Booking</button>
                             </div>)}
