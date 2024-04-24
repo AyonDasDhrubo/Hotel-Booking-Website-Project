@@ -24,6 +24,7 @@ function Profilescreen() {
                             <h1>Name : {user.name}</h1>
                             <h1>Email : {user.email}</h1>
                             <h1>Admin Access : {user.isAdmin ? "Yes" : "No"}</h1>
+                            <h1>User ID : {user._id}</h1>
 
                         </div>
                     </div>
@@ -65,19 +66,27 @@ export function MyBookings() {
     }, []);
     async function cancelBooking(bookingid, roomid) {
         try {
-            setloading(true)
-            const result = await (await axios.post("/api/bookings/cancelbooking", { bookingid, roomid })).data
-            console.log(result)
-            setloading(false)
-            Swal.fire("Congrats", "Your Booking Cancelled Successfully!", 'success').then(result => {
-                window.location.reload()
-            })
+            setloading(true);
+            const result = await axios.post("/api/bookings/cancelbooking", { bookingid, roomid });
+            console.log(result);
+            setloading(false);
+    
+            
+            setbookings(currentBookings => currentBookings.map(booking => {
+                if (booking._id === bookingid) {
+                    return { ...booking, status: 'cancelled' }; 
+                }
+                return booking;
+            }));
+    
+            Swal.fire("Congrats", "Your Booking Cancelled Successfully!", 'success');
         } catch (error) {
-            console.log(error)
-            setloading(false)
-            Swal.fire("Ops!", "Something Went Wrong", 'error')
+            console.log(error);
+            setloading(false);
+            Swal.fire("Ops!", "Something Went Wrong", 'error');
         }
     }
+    
     return (
         <div>
             <div className="row">
