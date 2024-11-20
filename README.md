@@ -28,7 +28,7 @@
 
 **User**
 
-- Register or log in to your account.
+- Register and log in to your account.
 - Search for available rooms by selecting dates and room types.
 - Proceed to booking and complete payment securely via Stripe.
 - Manage your bookings, including cancellations, through your dashboard.
