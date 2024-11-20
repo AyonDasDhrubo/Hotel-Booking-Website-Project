@@ -1,6 +1,6 @@
 Welcome to the Hotel Booking Website Project! This platform offers users a seamless experience to search, book, and manage hotel reservations. It also provides administrators with tools to oversee bookings, manage users and update room inventories.
 
-**Key Features**
+## **Key Features**
 - **User Registration & Login:** Secure user authentication to access personalized booking features.
 - **Search & Filter:** Users can search for rooms based on dates and room types.
 - **Booking Management:** Secure booking process with Stripe integration and options for free cancellation.
