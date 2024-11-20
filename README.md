@@ -6,7 +6,7 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 - **Booking Management:** Secure booking process with Stripe integration and options for free cancellation.
 - **Admin Dashboard:** Administrators can manage users, oversee bookings, and update room inventories.
 
-##**Tech Stack**
+## **Tech Stack**
 
 **Frontend:**
 - HTML
