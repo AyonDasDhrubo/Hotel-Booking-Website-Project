@@ -7,7 +7,8 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 - **Admin Dashboard:** Administrators can manage users, oversee bookings, and update room inventories.
 
 **Tech Stack**
-**-Frontend:**
+
+**Frontend:**
 - HTML
 - CSS
 - JavaScript
