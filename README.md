@@ -12,10 +12,12 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 - CSS
 - JavaScript
 - React
-**Backend:**
+
+**-Backend:**
 - Node.js
 - Express.js
 - Database:
 - MongoDB
+
 **-Payment Integration:**
 - Stripe API
