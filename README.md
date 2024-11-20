@@ -33,7 +33,7 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 - Proceed to booking and complete payment securely via Stripe.
 - Manage your bookings, including cancellations, through your dashboard.
 
-  **Admin**
+**Admin**
 
 - Log in to the admin dashboard.
 - Manage user accounts and oversee all bookings.
