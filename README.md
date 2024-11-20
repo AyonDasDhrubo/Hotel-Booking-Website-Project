@@ -17,7 +17,8 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 **Backend:**
 - Node.js
 - Express.js
-- Database:
+  
+**Database:**
 - MongoDB
 
 **Payment Integration:**
