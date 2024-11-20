@@ -1,4 +1,4 @@
-Welcome to the Hotel Booking Website Project! This platform offers users a seamless experience to search, book, and manage hotel reservations. It also provides administrators with tools to oversee bookings, manage users and update room inventories.
+Welcome to the Hotel Booking Website Project! This platform offers users a seamless experience to search, book and manage hotel reservations. It also provides administrators with tools to oversee bookings, manage users and update room inventories.
 
 ## **Key Features**
 - **User Registration & Login:** Secure user authentication to access personalized booking features.
@@ -23,3 +23,18 @@ Welcome to the Hotel Booking Website Project! This platform offers users a seaml
 
 **Payment Integration:**
 - Stripe API
+
+## **Usage**
+
+**User**
+
+- Register or log in to your account.
+- Search for available rooms by selecting dates and room types.
+- Proceed to booking and complete payment securely via Stripe.
+- Manage your bookings, including cancellations, through your dashboard.
+
+  **Admin**
+
+- Log in to the admin dashboard.
+- Manage user accounts and oversee all bookings.
+- Update room inventories and availability as needed.
